@@ -18,7 +18,7 @@
 .order-form-input {
     width: 50%;
     height: 50px;
-    margin: 20px 0; 
+    margin: 20px auto; 
     padding: 10px;
     border: none;
 }
@@ -44,4 +44,20 @@
 .order-form-btn {
     margin: 30px;
     width: 190px;
+}
+
+@media screen and (max-width:992px) {
+    .order-form-input {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .order-form-user-data {
+        flex-direction: column;
+    }
+    .order-form-input + .order-form-input {
+        margin-left: 0;
+    }
+    .order-textarea {
+        margin: 10px auto;
+    }
 }

@@ -3,3 +3,9 @@
     height: 120px;
     margin: 20px auto;
 }
+
+@media screen and (max-width:992px) {
+    .img-starter-next {
+        display: none;
+    }
+}
