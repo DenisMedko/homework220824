@@ -46,6 +46,9 @@
 .justify-center {
   justify-content: center;
 }
+.align-center {
+  align-items: center;
+}
 
 @media screen and (min-width: 576px) {
   :root {
