@@ -1,0 +1,47 @@
+.order {
+    background-color: var(--light-gray-bg-color);
+    padding: 70px 0;
+}
+
+.order-article {
+    text-align: center;
+}
+
+.order-heading-margin {
+    margin-bottom: 50px;
+}
+
+.order-form {
+    margin: 50px;
+}
+
+.order-form-input {
+    width: 50%;
+    height: 50px;
+    margin: 20px 0; 
+    padding: 10px;
+    border: none;
+}
+.order-form-user-data {
+    display: flex;
+    justify-content: space-between;
+}
+.order-form-input + .order-form-input {
+    margin-left: 20px;
+}
+
+.order-textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+.order-form-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.order-form-btn {
+    margin: 30px;
+    width: 190px;
+}
